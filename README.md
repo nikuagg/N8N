@@ -1,77 +1,51 @@
-n8n Popularity System
+🚀 n8n Popularity System
 
-FastAPI service for collecting, aggregating, and serving popularity data of n8n workflows from multiple public platforms.
-Currently supports: YouTube, n8n Forum, StackOverflow.
+Collect and analyze workflow popularity data from multiple platforms like YouTube, Forum, and StackOverflow, and serve it through a FastAPI-based REST API.
 
 ✨ Features
 
-Multi-source collection: YouTube, Forum, StackOverflow (Google planned)
+📡 Multi-source workflow collection: YouTube, n8n Forum, StackOverflow
 
-Automatic merging of results into a single dataset (all_data.json)
+🔄 Automated fetching & merging of results
 
-Popularity scoring per workflow (views, likes, comments, votes, ratios)
+📂 JSON dataset export (output/*.json)
 
-JSON outputs for each source + unified dataset
+🔑 API access via FastAPI with auto-generated docs
 
-REST API (FastAPI) to browse, query, and serve results
+🏆 Popularity scoring system (views, likes, comments, ratios, etc.)
 
-Environment-based config (.env)
+🌍 Country segmentation (US & India)
 
-📂 Project Structure
-n8n-popularity-system/
-│── app/
-│   ├── crud.py            # Database operations
-│   ├── database.py        # SQLite setup (SQLAlchemy)
-│   ├── fetch_data.py      # Orchestrates collection & merging
-│   ├── forum.py           # Forum scraper
-│   ├── main.py            # FastAPI entrypoint
-│   ├── models.py          # SQLAlchemy models
-│   ├── stackoverflow.py   # StackOverflow fetcher
-│   ├── utils.py           # Helpers
-│   ├── youtube.py         # YouTube fetcher
-│── output/                # JSON snapshots
-│   ├── all_data.json
-│   ├── forum.json
-│   ├── stackoverflow.json
-│   ├── youtube.json
-│── .env                   # Local config (ignored in git)
-│── .env.example           # Example env config
-│── requirements.txt       # Dependencies
-│── README.md              # Documentation
-
-⚙️ Setup
-1. Clone repo
+⚙️ Setup Instructions
+1. Clone the repository
 git clone <your-repo-url>
 cd n8n-popularity-system
-
-2. Create virtual environment
+2. Create a virtual environment
 python -m venv .venv
+# Activate
 source .venv/bin/activate   # Mac/Linux
 .venv\Scripts\activate      # Windows
 
 3. Install dependencies
 pip install -r requirements.txt
 
-4. Setup environment variables
+4. Configure environment variables
 
-Copy .env.example → .env and fill in required values.
+Copy .env.example → .env and add your keys:
 
-cp .env.example .env
-
-🔑 Environment Variables
 Variable	Description
-YOUTUBE_API_KEY	API key for YouTube Data API (required for live fetching)
+YOUTUBE_API_KEY	YouTube Data API v3 key (required for YouTube)
 
-(Forum & StackOverflow fetchers run without keys.)
+Other sources (Forum, StackOverflow) work without API keys.
 
-📡 Data Collection
+📡 Fetching Data
 
-Run the collector:
+Run the data collector:
 
 python -m app.fetch_data
 
 
-This will fetch fresh data and update JSON files in output/:
+This generates JSON files under output/:
 
 youtube.json
 
@@ -79,83 +53,64 @@ forum.json
 
 stackoverflow.json
 
-all_data.json (merged + deduped)
+all_data.json (merged)
 
-🗄️ Output Format
+Each run fetches slightly different results (randomized queries) to keep datasets fresh.
 
-Each JSON file is a list of workflow entries:
+🗄 Data Model
+
+Each workflow entry looks like:
 
 {
-  "workflow": "Email Automation with Gmail",
+  "workflow": "Google Sheets → Slack Automation",
   "platform": "YouTube",
-  "country": "Global",
-  "evidence": "https://youtube.com/watch?v=XXXX",
-  "popularity_score": 87
+  "popularity_metrics": {
+    "views": 12500,
+    "likes": 630,
+    "comments": 88,
+    "like_to_view_ratio": 0.05,
+    "comment_to_view_ratio": 0.007
+  },
+  "country": "US"
 }
 
+| Field                | Description                                     |
+| -------------------- | ----------------------------------------------- |
+| `workflow`           | Title / description of the workflow             |
+| `platform`           | Source (YouTube, Forum, StackOverflow)          |
+| `popularity_metrics` | Engagement stats (views, likes, comments, etc.) |
+| `country`            | Region of origin (US or India)                  |
 
-Fields:
 
-workflow → Workflow title
+Workflows are scored per platform using weighted formulas:
 
-platform → Source platform
+| **Source**        | **Formula**                                                           |
+| ----------------- | --------------------------------------------------------------------- |
+| **YouTube**       | `0.45*views + 0.25*likes + 0.15*comments + 0.15*(like_to_view_ratio)` |
+| **Forum**         | `0.4*views + 0.3*likes + 0.3*comments`                                |
+| **StackOverflow** | `0.5*score + 0.3*answers + 0.2*views` (simplified for relevance)      |
+| **Google Search** | Placeholder = 0 (can be extended later)                               |
 
-country → Country if available, else "Global"
-
-evidence → URL or reference
-
-popularity_score → Computed score
-
-🧮 Scoring
-
-Each source has its own formula:
-
-Source	Formula
-YouTube	0.45*views + 0.25*likes + 0.15*comments + 0.15*like_to_view_ratio
-Forum	0.4*views + 0.3*likes + 0.3*comments
-StackOverflow	Based on votes + answer_count + view_count (weighted)
-
-Final popularity_score is normalized and comparable across sources.
 
 🚀 Running the API
 
-Start the server:
+Start FastAPI server:
 
 uvicorn app.main:app --reload
 
 
-Visit:
+API available at:
 
 Swagger UI → http://localhost:8000/docs
 
-ReDoc → http://localhost:8000/redoc
+Redoc → http://localhost:8000/redoc
 
-🔌 API Endpoints
-Endpoint	Method	Description
-/	GET	Health check / metadata
-/workflows	GET	Get all workflows (from all_data.json)
-/workflows/{platform}	GET	Get workflows from specific platform (youtube, forum, stackoverflow)
+🔌 Core API Endpoints
 
-Example:
+| Endpoint          | Method | Description                               |
+| ----------------- | ------ | ----------------------------------------- |
+| `/`               | GET    | API metadata & health check               |
+| `/workflows`      | GET    | Fetch all stored workflows                |
+| `/workflows/{id}` | GET    | Fetch single workflow by ID               |
+| `/collect`        | POST   | Trigger new data collection (all sources) |
 
-curl http://127.0.0.1:8000/workflows/youtube
-
-✅ Deliverables
-
-Working FastAPI service
-
-Dataset of 50+ workflows across multiple sources (output/all_data.json)
-
-Scoring formulas for each platform
-
-Documentation (this README)
-
-🔮 Next Steps
-
-Add Google Trends as data source
-
-Add Reddit & GitHub collectors
-
-Improve scoring via time-based weighting
-
-Export in CSV / JSONL history
