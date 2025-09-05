@@ -1,4 +1,4 @@
-🚀 n8n Popularity System
+🚀 N8N Popularity System
 
 Collect and analyze workflow popularity data from multiple platforms like YouTube, Forum, and StackOverflow, and serve it through a FastAPI-based REST API.
 
