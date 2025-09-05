@@ -1,4 +1,4 @@
-📊 n8n Popularity System
+📊 N8N Popularity System
 
 FastAPI service that collects, scores, and serves popularity signals for n8n workflows across multiple platforms: YouTube, Forum, and StackOverflow.
 
@@ -33,16 +33,23 @@ Each workflow entry is represented as:
   "country": "US"
 }
 
-Field	Description
-workflow	Workflow title / description
-platform	Source platform (YouTube, Forum, StackOverflow)
-popularity_metrics	Engagement stats (views, likes, comments, ratios)
-country	Region (US or India)
+| Field                | Description                                       |
+| -------------------- | ------------------------------------------------- |
+| `workflow`           | Workflow title / description                      |
+| `platform`           | Source platform (YouTube, Forum, StackOverflow)   |
+| `popularity_metrics` | Engagement stats (views, likes, comments, ratios) |
+| `country`            | Region (US or India)                              |
+
+
+
 🧮 Scoring
-Source	Formula
-YouTube	0.45*views + 0.25*likes + 0.15*comments + 0.15*like_to_view_ratio
-Forum	0.4*views + 0.3*likes + 0.3*comments
-StackOverflow	0.5*score + 0.3*answers + 0.2*views
+| Source            | Formula                                                             |
+| ----------------- | ------------------------------------------------------------------- |
+| **YouTube**       | `0.45*views + 0.25*likes + 0.15*comments + 0.15*like_to_view_ratio` |
+| **Forum**         | `0.4*views + 0.3*likes + 0.3*comments`                              |
+| **StackOverflow** | `0.5*score + 0.3*answers + 0.2*views`                               |
+
+
 🚀 Quick Start
 # Create virtual environment
 python -m venv .venv
@@ -86,10 +93,13 @@ uvicorn app.main:app --reload
 
 Available at: http://127.0.0.1:8000
 
-Endpoint	Method	Description
-/	GET	Health check / metadata
-/workflows	GET	Fetch all workflows (from all_data.json)
-/workflows/{platform}	GET	Fetch workflows by platform (youtube, forum, stackoverflow)
+| Endpoint                | Method | Description                                                       |
+| ----------------------- | ------ | ----------------------------------------------------------------- |
+| `/`                     | GET    | Health check / metadata                                           |
+| `/workflows`            | GET    | Fetch all workflows (from `all_data.json`)                        |
+| `/workflows/{platform}` | GET    | Fetch workflows by platform (`youtube`, `forum`, `stackoverflow`) |
+
+
 📜 API Usage Examples
 Get all workflows
 curl http://127.0.0.1:8000/workflows
