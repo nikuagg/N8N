@@ -1,25 +1,25 @@
-📊 N8N POPULARITY SYSTEM
+# 📊 N8N POPULARITY SYSTEM
 
-FastAPI service that collects, scores, and serves popularity signals for n8n workflows across multiple platforms: YouTube, Forum, and StackOverflow.
+FastAPI service that **collects, scores, and serves popularity signals** for n8n workflows across multiple platforms: **YouTube, Forum, and StackOverflow**.  
 
-✨ FEATURES
+---
 
-📡 Multi-source workflow collection: YouTube, n8n Forum, StackOverflow
+# ✨ FEATURES
 
-🔄 Automated fetching & merging of results
+- 📡 Multi-source workflow collection: **YouTube**, **n8n Forum**, **StackOverflow**  
+- 🔄 Automated fetching & merging of results  
+- 📂 JSON dataset export (`output/*.json`)  
+- 🔑 API access via **FastAPI** with auto-generated docs  
+- 🏆 Popularity scoring system (views, likes, comments, ratios, etc.)  
+- 🌍 Country segmentation (**US** & **India**)  
 
-📂 JSON dataset export (output/*.json)
+---
 
-🔑 API access via FastAPI with auto-generated docs
-
-🏆 Popularity scoring system (views, likes, comments, ratios, etc.)
-
-🌍 Country segmentation (US & India)
-
-📦 DATA MODEL
+# 📦 DATA MODEL
 
 Each workflow entry is represented as:
 
+json
 {
   "workflow": "Google Sheets → Slack Automation",
   "platform": "YouTube",
@@ -32,7 +32,6 @@ Each workflow entry is represented as:
   },
   "country": "US"
 }
-
 | Field                | Description                                       |
 | -------------------- | ------------------------------------------------- |
 | `workflow`           | Workflow title / description                      |
@@ -49,6 +48,8 @@ Each workflow entry is represented as:
 | **StackOverflow** | `0.5*score + 0.3*answers + 0.2*views`                               |
 
 ⚙️ QUICK START
+bash
+Copy code
 # Clone repository
 git clone <your-repo-url>
 cd n8n-popularity-system
@@ -63,21 +64,18 @@ pip install -r requirements.txt
 
 # Setup environment variables
 cp .env.example .env
-
 🔑 ENVIRONMENT VARIABLES
-Variable	Purpose
+
 | Variable          | Purpose                                      |
 | ----------------- | -------------------------------------------- |
 | `YOUTUBE_API_KEY` | Required for fetching live YouTube workflows |
 
-
 📡 COLLECTING DATA
-
 Run the collector:
 
+bash
+Copy code
 python -m app.fetch_data
-
-
 This saves snapshots to output/:
 
 youtube.json
@@ -89,12 +87,11 @@ stackoverflow.json
 all_data.json
 
 🔌 API ENDPOINTS
-
 Start the API server:
 
+bash
+Copy code
 uvicorn app.main:app --reload
-
-
 Available at → http://127.0.0.1:8000
 
 | Endpoint                | Method | Description                                                       |
@@ -103,14 +100,19 @@ Available at → http://127.0.0.1:8000
 | `/workflows`            | GET    | Fetch all workflows (from `all_data.json`)                        |
 | `/workflows/{platform}` | GET    | Fetch workflows by platform (`youtube`, `forum`, `stackoverflow`) |
 
+
 📜 API USAGE EXAMPLES
 ✅ Get all workflows
+bash
+Copy code
 curl http://127.0.0.1:8000/workflows
-
 ✅ Get YouTube workflows only
+bash
+Copy code
 curl http://127.0.0.1:8000/workflows/youtube
-
 ✅ Sample Response
+json
+Copy code
 [
   {
     "workflow": "Email Automation with Gmail",
@@ -125,7 +127,6 @@ curl http://127.0.0.1:8000/workflows/youtube
     "country": "India"
   }
 ]
-
 🏆 EVALUATION CRITERIA
 Aspect	Explanation
 Data Richness	Workflows backed by metrics and evidence
@@ -133,10 +134,13 @@ Production Readiness	API + code deployable on day one
 Automation	Collector runs without manual intervention
 Creativity	Multiple sources, deduplication, scoring
 Completeness	At least 50 workflows across sources and countries
-✅ DELIVERABLES
 
+✅ DELIVERABLES
 Working FastAPI API
 
 Dataset of 50+ workflows (output/all_data.json)
 
 Documentation of setup, scoring, and API usage (this README)
+
+pgsql
+Copy code
