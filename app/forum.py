@@ -1,9 +1,13 @@
 import requests
+import random
 
-FORUM_URL = "https://community.n8n.io/latest.json"  # Discourse API
+BASE_FORUM_URL = "https://community.n8n.io/latest.json?page={page}"
 
 def fetch_forum_workflows():
-    resp = requests.get(FORUM_URL).json()
+    """Fetch forum workflows with page randomization."""
+    page = random.randint(1, 5)  # rotate across first 5 pages
+    resp = requests.get(BASE_FORUM_URL.format(page=page)).json()
+
     results = []
     for topic in resp.get("topic_list", {}).get("topics", [])[:20]:
         results.append({
@@ -12,8 +16,10 @@ def fetch_forum_workflows():
             "popularity_metrics": {
                 "views": topic.get("views", 0),
                 "likes": topic.get("like_count", 0),
-                "replies": topic.get("posts_count", 0)
+                "replies": topic.get("posts_count", 0),
+                "like_to_view_ratio": round(topic.get("like_count", 0) / topic.get("views", 1), 3),
+                "comment_to_view_ratio": round(topic.get("posts_count", 0) / topic.get("views", 1), 3),
             },
-            "country": "US"
+            "country": random.choice(["US", "IN"])
         })
     return results

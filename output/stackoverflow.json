@@ -1,0 +1,197 @@
+[
+  {
+    "workflow": "n8n workflow sends multiple emails instead of one",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 54,
+      "likes": null,
+      "comments": 1,
+      "upvotes": 0,
+      "like_to_view_ratio": null
+    },
+    "country": null,
+    "source_id": "79727591",
+    "url": "https://stackoverflow.com/questions/79727591/n8n-workflow-sends-multiple-emails-instead-of-one",
+    "collected_at": "2025-09-05T14:07:37.537180"
+  },
+  {
+    "workflow": "sample n8n workflow to post data to google sheets",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 1262,
+      "likes": null,
+      "comments": 1,
+      "upvotes": 0,
+      "like_to_view_ratio": null
+    },
+    "country": null,
+    "source_id": "74771481",
+    "url": "https://stackoverflow.com/questions/74771481/sample-n8n-workflow-to-post-data-to-google-sheets",
+    "collected_at": "2025-09-05T14:07:37.537180"
+  },
+  {
+    "workflow": "n8n workflow execution hanging and writing corrupt data",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 251,
+      "likes": null,
+      "comments": 0,
+      "upvotes": 0,
+      "like_to_view_ratio": null
+    },
+    "country": null,
+    "source_id": "79334532",
+    "url": "https://stackoverflow.com/questions/79334532/n8n-workflow-execution-hanging-and-writing-corrupt-data",
+    "collected_at": "2025-09-05T14:07:37.537180"
+  },
+  {
+    "workflow": "Adobe PDF Services API &quot;404 Not Found&quot; Error in n8n Workflow (Race Condition)",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 33,
+      "likes": null,
+      "comments": 0,
+      "upvotes": 0,
+      "like_to_view_ratio": null
+    },
+    "country": null,
+    "source_id": "79659615",
+    "url": "https://stackoverflow.com/questions/79659615/adobe-pdf-services-api-404-not-found-error-in-n8n-workflow-race-condition",
+    "collected_at": "2025-09-05T14:07:37.537180"
+  },
+  {
+    "workflow": "n8n workflow that consists of reading 2 excel files. I need to associate the ID of the ticket in the first file to the ticket in the second",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 100,
+      "likes": null,
+      "comments": 0,
+      "upvotes": 0,
+      "like_to_view_ratio": null
+    },
+    "country": null,
+    "source_id": "79662109",
+    "url": "https://stackoverflow.com/questions/79662109/n8n-workflow-that-consists-of-reading-2-excel-files-i-need-to-associate-the-id",
+    "collected_at": "2025-09-05T14:07:37.537180"
+  },
+  {
+    "workflow": "Why is &quot;Marketing Developer Platform&quot; not available in LinkedIn Developer Products to request access to &quot;rw_organization_admin&quot; scope?",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 210,
+      "likes": 2,
+      "comments": 1,
+      "like_to_view_ratio": 0.01,
+      "comment_to_view_ratio": 0.005
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "How to solve &quot;path/not_found&quot; error with Dropbox API",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 170,
+      "likes": 0,
+      "comments": 1,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.006
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "n8n does not allow changing workflow name",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 374,
+      "likes": 0,
+      "comments": 1,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.003
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "odoo node in n8n both in saas mode",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 43,
+      "likes": 0,
+      "comments": 0,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "n8n - (MCP SERVER MEMORY) MCP Client Failed to execute operation: MCP error -32603: Cannot read properties of undefined (reading &#39;includes&#39;)",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 331,
+      "likes": 0,
+      "comments": 0,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "How to get structured JSON output from OpenAI in n8n with custom extracted fields?",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 617,
+      "likes": 0,
+      "comments": 0,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Deployment Issue for n8n on Heroku",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 123,
+      "likes": 1,
+      "comments": 0,
+      "like_to_view_ratio": 0.008,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Shopify create a integration via GraphQL",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 55,
+      "likes": 0,
+      "comments": 0,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "n8n and WordPress: Need Help Using FAQ Page Data for a Chatbot",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 67,
+      "likes": 0,
+      "comments": 0,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Using n8n to query a Microsoft SQL database, what value goes into the &quot;Query&quot; parameter to have the AI decide",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 479,
+      "likes": 0,
+      "comments": 0,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "IN"
+  }
+]

@@ -3,9 +3,11 @@
     "workflow": ":mega: We Need Your Help! (Answer & Earn)",
     "platform": "Forum",
     "popularity_metrics": {
-      "views": 32931,
-      "likes": 594,
-      "replies": 175
+      "views": 33004,
+      "likes": 600,
+      "comments": 175,
+      "like_to_view_ratio": 0.0182,
+      "comment_to_view_ratio": 0.0053
     },
     "country": "US"
   },
@@ -13,219 +15,47 @@
     "workflow": "Welcome to the n8n Community!",
     "platform": "Forum",
     "popularity_metrics": {
-      "views": 12934,
+      "views": 12947,
       "likes": 67,
-      "replies": 2
+      "comments": 2,
+      "like_to_view_ratio": 0.0052,
+      "comment_to_view_ratio": 0.0002
     },
     "country": "US"
   },
   {
-    "workflow": "N8N to OpenAi real time voice agent",
+    "workflow": "Superficial error connecting to network when logging in and out",
     "platform": "Forum",
     "popularity_metrics": {
-      "views": 18,
+      "views": 6,
       "likes": 0,
-      "replies": 2
+      "comments": 2,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.3333
     },
     "country": "US"
   },
   {
-    "workflow": "I need your help in activation key",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 20,
-      "likes": 4,
-      "replies": 12
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "I am Making A whatsapp Chatbor And execution is only performing once",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 4,
-      "likes": 0,
-      "replies": 1
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "Add data to XML file",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 20,
-      "likes": 2,
-      "replies": 13
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "Problem with subworkflow run not returning the output to the parent",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 5,
-      "likes": 0,
-      "replies": 3
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "Webhook information format into n8n. date and time",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 4,
-      "likes": 0,
-      "replies": 6
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "Convert to File: Add encoding and Strip BOM options",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 138,
-      "likes": 0,
-      "replies": 2
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "Error 404 on /rest/external-secrets/providers",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 7,
-      "likes": 0,
-      "replies": 2
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "I had problems with the supabase vector store node.",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 9,
-      "likes": 0,
-      "replies": 3
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "How to Dynamically Load Credentials in a Code Node? ($getCredentials is not defined)",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 20,
-      "likes": 0,
-      "replies": 6
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "Could not connect to Server on inital page setup owner account",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 25,
-      "likes": 0,
-      "replies": 10
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "Perplexity API key not working in n8n",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 4,
-      "likes": 0,
-      "replies": 3
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "Code node \"Unknown Error\" for no obvious reason",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 5,
-      "likes": 1,
-      "replies": 9
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "N8n self-hosted community version Login Automation",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 19,
-      "likes": 4,
-      "replies": 6
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "Unlock AD user account using freshservices ticket with n8n",
+    "workflow": "Is Openai chat model node supports gpt-oss answer format",
     "platform": "Forum",
     "popularity_metrics": {
       "views": 2,
       "likes": 0,
-      "replies": 1
+      "comments": 1,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.5
     },
     "country": "US"
   },
   {
-    "workflow": "[SWITCH PROBLEM]: No fields - node executed, but no items were sent on this branch",
+    "workflow": "Workflow stops if website error or doesn't load; processes some leads, then stops, won’t proceed to next lead",
     "platform": "Forum",
     "popularity_metrics": {
-      "views": 2161,
-      "likes": 9,
-      "replies": 27
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "Securely Self-Hosting n8n with Docker & Cloudflare Tunnel (The... Arguably Less-Painful Way)",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 8106,
-      "likes": 19,
-      "replies": 14
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "Problem in node \u2018Generate Image NB\u2018 This operation expects the node's input data to contain a binary file 'data', but none was found [item 0]",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 1,
+      "views": 12,
       "likes": 0,
-      "replies": 1
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "Open AI Response API",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 34,
-      "likes": 0,
-      "replies": 2
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "WhatsApp Token Expires",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 11,
-      "likes": 0,
-      "replies": 2
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "We need your feedback to make an upcoming feature better!",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 428,
-      "likes": 11,
-      "replies": 9
+      "comments": 2,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.1667
     },
     "country": "US"
   },
@@ -233,149 +63,431 @@
     "workflow": "My n8n certificate",
     "platform": "Forum",
     "popularity_metrics": {
-      "views": 41,
+      "views": 50,
       "likes": 0,
-      "replies": 7
+      "comments": 8,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.16
     },
     "country": "US"
   },
   {
-    "workflow": "Deploy N8N on Azure Container Apps",
+    "workflow": "Unlock AD user account using freshservices ticket with n8n",
     "platform": "Forum",
     "popularity_metrics": {
-      "views": 5947,
-      "likes": 5,
-      "replies": 19
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "Schedule trigger not being triggered",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 22,
+      "views": 16,
       "likes": 1,
-      "replies": 2
+      "comments": 9,
+      "like_to_view_ratio": 0.0625,
+      "comment_to_view_ratio": 0.5625
     },
     "country": "US"
   },
   {
-    "workflow": "Gemini Error",
+    "workflow": "AI Agent's HTTP Request tool has issues with auth and fetching Jira tickets",
     "platform": "Forum",
     "popularity_metrics": {
-      "views": 132,
+      "views": 33,
       "likes": 0,
-      "replies": 10
+      "comments": 12,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.3636
     },
     "country": "US"
   },
   {
-    "workflow": "I'm getting a \"Not Found\" error when connecting a self-hosted n8n instance on Render.com to Google Cloud",
+    "workflow": "Postgres chat memory with predefined credentials",
     "platform": "Forum",
     "popularity_metrics": {
-      "views": 43,
+      "views": 17,
       "likes": 0,
-      "replies": 3
+      "comments": 4,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.2353
     },
     "country": "US"
   },
   {
-    "workflow": "Auto-update n8n instance(self hosted) with Coolify (and similar service)",
+    "workflow": "iFraming issue on n8n Cloud",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 3,
+      "likes": 0,
+      "comments": 1,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.3333
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Seeking advice: Airtable + n8n workflow for personalized content inspiration",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 2,
+      "likes": 0,
+      "comments": 1,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.5
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "DataForSEO Authorization failed - please check your credentials",
     "platform": "Forum",
     "popularity_metrics": {
       "views": 1,
       "likes": 0,
-      "replies": 1
+      "comments": 2,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 2.0
     },
     "country": "US"
   },
   {
-    "workflow": "Postgres PGVector Store",
+    "workflow": "Human Excel Submissions + Enforcing Schema with FussyData + n8n",
     "platform": "Forum",
     "popularity_metrics": {
-      "views": 60,
+      "views": 3,
       "likes": 0,
-      "replies": 3
+      "comments": 3,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 1.0
     },
     "country": "US"
   },
   {
-    "workflow": "Gmail Node - Get Many Messages - HTML as Text",
+    "workflow": "\"Upload File\" Google Drive node with Service Account not working",
     "platform": "Forum",
     "popularity_metrics": {
-      "views": 36,
+      "views": 541,
+      "likes": 15,
+      "comments": 20,
+      "like_to_view_ratio": 0.0277,
+      "comment_to_view_ratio": 0.037
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "HubSpot Contact Create Trigger not showing any events when listening",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 20,
       "likes": 0,
-      "replies": 7
+      "comments": 5,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.25
     },
     "country": "US"
   },
   {
-    "workflow": "How do i make whatsapp msg be the trigger and not google form? im stuck",
+    "workflow": "I am getting this error - Problem in node ‘Get Leonardo Image Status‘ Method not allowed - please check you are using the right HTTP method",
     "platform": "Forum",
     "popularity_metrics": {
-      "views": 24,
+      "views": 26,
+      "likes": 0,
+      "comments": 3,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.1154
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "How to use LangChain and LangSmith with n8n Tutorial",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 63,
       "likes": 1,
-      "replies": 4
+      "comments": 3,
+      "like_to_view_ratio": 0.0159,
+      "comment_to_view_ratio": 0.0476
     },
     "country": "US"
   },
   {
-    "workflow": "Issue with respond to webhook large binary file",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 7,
-      "likes": 0,
-      "replies": 1
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "Webhook Question - Is it Supposed to Timeout?",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 23,
-      "likes": 0,
-      "replies": 3
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "Setup n8n on ARMv8 (aarch64) help me",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 5,
-      "likes": 0,
-      "replies": 1
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "Getting \"Error connecting to n8n\" message even though everything is working fine",
-    "platform": "Forum",
-    "popularity_metrics": {
-      "views": 6,
-      "likes": 0,
-      "replies": 1
-    },
-    "country": "US"
-  },
-  {
-    "workflow": "Getting \"connection lost\" error in a deployed n8n instance",
+    "workflow": "I had problems with the supabase vector store node.",
     "platform": "Forum",
     "popularity_metrics": {
       "views": 14,
       "likes": 0,
-      "replies": 3
+      "comments": 5,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.3571
     },
     "country": "US"
   },
   {
-    "workflow": "Unable to override request header in HTTP Request Node",
+    "workflow": "Creating an AI agent that receives sales information from a business and loads it into Google Sheet",
     "platform": "Forum",
     "popularity_metrics": {
       "views": 9,
       "likes": 0,
-      "replies": 2
+      "comments": 3,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.3333
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "AI agent that loads sales data into a Google Sheet (I can't get it to load the data)",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 8,
+      "likes": 0,
+      "comments": 1,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.125
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Read file from disk node is broken for large requests",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 22,
+      "likes": 0,
+      "comments": 3,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.1364
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Execute Workflow node returns data from the previous node instead of the last sub-execution node",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 513,
+      "likes": 13,
+      "replies": 15,
+      "like_to_view_ratio": 0.025,
+      "comment_to_view_ratio": 0.029
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Custom n8n form field names/IDs",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 27,
+      "likes": 0,
+      "replies": 2,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.074
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Storing json in Qdrant",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 19,
+      "likes": 1,
+      "replies": 3,
+      "like_to_view_ratio": 0.053,
+      "comment_to_view_ratio": 0.158
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Option to Assign Custom Webhook URL (for Cloudflare Tunnel Deployments)",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 19,
+      "likes": 6,
+      "replies": 9,
+      "like_to_view_ratio": 0.316,
+      "comment_to_view_ratio": 0.474
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Append not working properly",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 12,
+      "likes": 0,
+      "replies": 7,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.583
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Selling my product that uses n8n as engine",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 64,
+      "likes": 0,
+      "replies": 8,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.125
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "N8n workflow for whatsapp business api, google sheet",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 55,
+      "likes": 3,
+      "replies": 7,
+      "like_to_view_ratio": 0.055,
+      "comment_to_view_ratio": 0.127
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Missing Badge for n8n Course Level 2",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 101,
+      "likes": 1,
+      "replies": 6,
+      "like_to_view_ratio": 0.01,
+      "comment_to_view_ratio": 0.059
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Random Service unavailable error while scaling",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 51,
+      "likes": 0,
+      "replies": 3,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.059
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "How to bypass Cloudflare security with HTTP Request",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 886,
+      "likes": 1,
+      "replies": 10,
+      "like_to_view_ratio": 0.001,
+      "comment_to_view_ratio": 0.011
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Loop over stopping middle way",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 12,
+      "likes": 1,
+      "replies": 2,
+      "like_to_view_ratio": 0.083,
+      "comment_to_view_ratio": 0.167
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Sheets Writing Issue",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 28,
+      "likes": 2,
+      "replies": 11,
+      "like_to_view_ratio": 0.071,
+      "comment_to_view_ratio": 0.393
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Efficiently Extract Text from Large PDF Files Stored in Google Drive Without Downloading Locally in n8n",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 57,
+      "likes": 1,
+      "replies": 6,
+      "like_to_view_ratio": 0.018,
+      "comment_to_view_ratio": 0.105
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Google Calendar node fails with Luxon-formatted date from Google Sheets (works with hardcoded string)",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 87,
+      "likes": 2,
+      "replies": 12,
+      "like_to_view_ratio": 0.023,
+      "comment_to_view_ratio": 0.138
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Upload image how to debug",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 12,
+      "likes": 0,
+      "replies": 2,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.167
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "[SOLVED] Problem with node n8n workflow to Github",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 18,
+      "likes": 0,
+      "replies": 5,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.278
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "[Use Case] Built an AI Agent That Generates SEO + Emotionally Optimized Content for Blog, Social, Newsletter, Landing Pages (GEO)",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 713,
+      "likes": 3,
+      "replies": 8,
+      "like_to_view_ratio": 0.004,
+      "comment_to_view_ratio": 0.011
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Google chat get messages in space",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 324,
+      "likes": 9,
+      "replies": 14,
+      "like_to_view_ratio": 0.028,
+      "comment_to_view_ratio": 0.043
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Personal Project: I'm building a hyper-personalized AI companion designed for personal growth. Here's the architecture. I'd like to discuss it and brainstorm the next steps/ideas!",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 405,
+      "likes": 0,
+      "replies": 4,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.01
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "How to integrate the ChatGPT Deep Research capability in a workflow",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 10,
+      "likes": 0,
+      "replies": 2,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.2
     },
     "country": "US"
   }

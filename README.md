@@ -1,99 +1,161 @@
-Here’s a professional version for your project:
+n8n Popularity System
 
-# 📊 n8n Popularity System (FastAPI)
+FastAPI service for collecting, aggregating, and serving popularity data of n8n workflows from multiple public platforms.
+Currently supports: YouTube, n8n Forum, StackOverflow.
 
-This project tracks the popularity of **n8n workflows** across platforms (YouTube + Forum).  
-It fetches workflow mentions, stores them locally, and serves results via a **FastAPI REST API**.
+✨ Features
 
----
+Multi-source collection: YouTube, Forum, StackOverflow (Google planned)
 
-## 🚀 Features
-- Fetches **YouTube workflows** (via YouTube Data API).
-- Fetches **Forum workflows** (via scraping/discussions).
-- Merges & deduplicates results automatically.
-- Stores data as JSON inside `/output` (ignored in git).
-- REST API endpoints to query workflows:
-  - `GET /workflows` → all workflows
-  - `GET /workflows/youtube` → YouTube only
-  - `GET /workflows/forum` → Forum only
+Automatic merging of results into a single dataset (all_data.json)
 
----
+Popularity scoring per workflow (views, likes, comments, votes, ratios)
 
-## 📂 Project Structure
+JSON outputs for each source + unified dataset
 
+REST API (FastAPI) to browse, query, and serve results
 
+Environment-based config (.env)
+
+📂 Project Structure
 n8n-popularity-system/
 │── app/
-│ ├── main.py # FastAPI entrypoint
-│ ├── youtube.py # Fetch from YouTube API
-│ ├── forum.py # Fetch forum workflows
-│ ├── fetch_data.py # Fetch + save workflows
-│ ├── utils.py # Helpers
-│ └── ...
-│── output/ # Local JSON results (ignored in git)
-│── .env # API keys (ignored in git)
-│── .env.example # Example environment file
-│── requirements.txt # Python dependencies
-│── README.md # Documentation
+│   ├── crud.py            # Database operations
+│   ├── database.py        # SQLite setup (SQLAlchemy)
+│   ├── fetch_data.py      # Orchestrates collection & merging
+│   ├── forum.py           # Forum scraper
+│   ├── main.py            # FastAPI entrypoint
+│   ├── models.py          # SQLAlchemy models
+│   ├── stackoverflow.py   # StackOverflow fetcher
+│   ├── utils.py           # Helpers
+│   ├── youtube.py         # YouTube fetcher
+│── output/                # JSON snapshots
+│   ├── all_data.json
+│   ├── forum.json
+│   ├── stackoverflow.json
+│   ├── youtube.json
+│── .env                   # Local config (ignored in git)
+│── .env.example           # Example env config
+│── requirements.txt       # Dependencies
+│── README.md              # Documentation
 
+⚙️ Setup
+1. Clone repo
+git clone <your-repo-url>
+cd n8n-popularity-system
 
----
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/nikuagg/N8N.git
-cd N8N
-
-2️⃣ Create & activate a virtual environment
+2. Create virtual environment
 python -m venv .venv
-.venv\Scripts\activate   # On Windows
-source .venv/bin/activate  # On Mac/Linux
+source .venv/bin/activate   # Mac/Linux
+.venv\Scripts\activate      # Windows
 
-3️⃣ Install dependencies
+3. Install dependencies
 pip install -r requirements.txt
 
-4️⃣ Setup environment variables
+4. Setup environment variables
 
-Copy .env.example → .env and add your YouTube API key:
+Copy .env.example → .env and fill in required values.
 
-YOUTUBE_API_KEY=your_api_key_here
+cp .env.example .env
 
-▶️ Running the Fetch Script
+🔑 Environment Variables
+Variable	Description
+YOUTUBE_API_KEY	API key for YouTube Data API (required for live fetching)
 
-To fetch latest workflows:
+(Forum & StackOverflow fetchers run without keys.)
+
+📡 Data Collection
+
+Run the collector:
 
 python -m app.fetch_data
 
 
-Results will be saved in:
+This will fetch fresh data and update JSON files in output/:
 
-output/youtube.json
+youtube.json
 
-output/forum.json
+forum.json
 
-output/all_data.json
+stackoverflow.json
 
-🌐 Running the API
+all_data.json (merged + deduped)
 
-Start FastAPI with Uvicorn:
+🗄️ Output Format
+
+Each JSON file is a list of workflow entries:
+
+{
+  "workflow": "Email Automation with Gmail",
+  "platform": "YouTube",
+  "country": "Global",
+  "evidence": "https://youtube.com/watch?v=XXXX",
+  "popularity_score": 87
+}
+
+
+Fields:
+
+workflow → Workflow title
+
+platform → Source platform
+
+country → Country if available, else "Global"
+
+evidence → URL or reference
+
+popularity_score → Computed score
+
+🧮 Scoring
+
+Each source has its own formula:
+
+Source	Formula
+YouTube	0.45*views + 0.25*likes + 0.15*comments + 0.15*like_to_view_ratio
+Forum	0.4*views + 0.3*likes + 0.3*comments
+StackOverflow	Based on votes + answer_count + view_count (weighted)
+
+Final popularity_score is normalized and comparable across sources.
+
+🚀 Running the API
+
+Start the server:
 
 uvicorn app.main:app --reload
 
 
-API will be available at:
+Visit:
 
-Swagger docs → http://127.0.0.1:8000/docs
+Swagger UI → http://localhost:8000/docs
 
-All workflows → http://127.0.0.1:8000/workflows
+ReDoc → http://localhost:8000/redoc
 
-YouTube workflows → http://127.0.0.1:8000/workflows/youtube
+🔌 API Endpoints
+Endpoint	Method	Description
+/	GET	Health check / metadata
+/workflows	GET	Get all workflows (from all_data.json)
+/workflows/{platform}	GET	Get workflows from specific platform (youtube, forum, stackoverflow)
 
-Forum workflows → http://127.0.0.1:8000/workflows/forum
+Example:
 
-📦 Deployment Guide
-Local (Developer Mode)
+curl http://127.0.0.1:8000/workflows/youtube
 
-Run uvicorn app.main:app --reload
+✅ Deliverables
 
+Working FastAPI service
+
+Dataset of 50+ workflows across multiple sources (output/all_data.json)
+
+Scoring formulas for each platform
+
+Documentation (this README)
+
+🔮 Next Steps
+
+Add Google Trends as data source
+
+Add Reddit & GitHub collectors
+
+Improve scoring via time-based weighting
+
+Export in CSV / JSONL history
