@@ -29,7 +29,7 @@ ENV/
 # ---------------------
 *.db
 instance/
-output/
+
 
 # ---------------------
 # Environment variables
