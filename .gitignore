@@ -1,0 +1,53 @@
+# ---------------------
+# Python
+# ---------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+*.spec
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# ---------------------
+# FastAPI / Uvicorn
+# ---------------------
+*.db
+instance/
+output/
+
+# ---------------------
+# Environment variables
+# ---------------------
+.env
+.env.*
+
+# Keep the example file
+!.env.example
+
+# ---------------------
+# VSCode
+# ---------------------
+.vscode/
+*.code-workspace
+
+# ---------------------
+# OS specific
+# ---------------------
+.DS_Store
+Thumbs.db
