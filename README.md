@@ -1,10 +1,10 @@
-# 🚀 N8N POPULARITY SYSTEM
+#  N8N POPULARITY SYSTEM
 
 **FastAPI service that collects, scores, and serves popularity signals for n8n workflows** across three public platforms: **YouTube**, **n8n Forum**, and **StackOverflow**.
 
 ---
 
-## ✨ FEATURES
+##  FEATURES
 
 - **Multi-source collection**: YouTube, n8n Forum, StackOverflow  
 - **Deduplication** across sources and stable IDs  
@@ -15,7 +15,7 @@
 
 ---
 
-## 📦 DATA MODEL
+##  DATA MODEL
 
 Each workflow entry follows this schema (JSON sample):
 
@@ -47,7 +47,7 @@ Each workflow entry follows this schema (JSON sample):
 
 ---
 
-## 🧮 SCORING (per-source formulas)
+## SCORING (per-source formulas)
 
 The scoring below is applied per-entry and optionally normalized across sources for unified rankings.
 
