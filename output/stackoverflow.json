@@ -3,16 +3,13 @@
     "workflow": "n8n workflow sends multiple emails instead of one",
     "platform": "StackOverflow",
     "popularity_metrics": {
-      "views": 54,
-      "likes": null,
+      "views": 55,
+      "likes": 0,
       "comments": 1,
-      "upvotes": 0,
-      "like_to_view_ratio": null
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.018
     },
-    "country": null,
-    "source_id": "79727591",
-    "url": "https://stackoverflow.com/questions/79727591/n8n-workflow-sends-multiple-emails-instead-of-one",
-    "collected_at": "2025-09-05T14:07:37.537180"
+    "country": "IN"
   },
   {
     "workflow": "sample n8n workflow to post data to google sheets",
@@ -132,7 +129,7 @@
       "like_to_view_ratio": 0.0,
       "comment_to_view_ratio": 0.0
     },
-    "country": "US"
+    "country": "IN"
   },
   {
     "workflow": "How to get structured JSON output from OpenAI in n8n with custom extracted fields?",
@@ -144,13 +141,13 @@
       "like_to_view_ratio": 0.0,
       "comment_to_view_ratio": 0.0
     },
-    "country": "IN"
+    "country": "US"
   },
   {
     "workflow": "Deployment Issue for n8n on Heroku",
     "platform": "StackOverflow",
     "popularity_metrics": {
-      "views": 123,
+      "views": 124,
       "likes": 1,
       "comments": 0,
       "like_to_view_ratio": 0.008,
@@ -187,6 +184,270 @@
     "platform": "StackOverflow",
     "popularity_metrics": {
       "views": 479,
+      "likes": 0,
+      "comments": 0,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "How to preserve input data in n8n?",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 612,
+      "likes": 0,
+      "comments": 1,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.002
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "How to parse LLM results from text to Json?",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 136,
+      "likes": 0,
+      "comments": 1,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.007
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Json format invalid in n8n..But it works if I don&#39;t add a variable",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 833,
+      "likes": 1,
+      "comments": 1,
+      "like_to_view_ratio": 0.001,
+      "comment_to_view_ratio": 0.001
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Telegram Trigger: Bad Request: invalid webhook URL specified",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 578,
+      "likes": 0,
+      "comments": 0,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "How to solve error &quot;(#10) Application does not have permission for this action&quot;?",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 405,
+      "likes": 0,
+      "comments": 0,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Is there an n8n default structure to have a main node and several action nodes inside of it?",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 148,
+      "likes": 1,
+      "comments": 0,
+      "like_to_view_ratio": 0.007,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "N8N does not detect ip in environment variable with Jelastic JPS",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 84,
+      "likes": 1,
+      "comments": 2,
+      "like_to_view_ratio": 0.012,
+      "comment_to_view_ratio": 0.024
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "How to enable https protocol for n8n started on premise?",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 2253,
+      "likes": 1,
+      "comments": 1,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "How to read URL params in custom created nodes inside N8N? as it&#39;s not recognizing any default browser side JS option to get URL",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 269,
+      "likes": 1,
+      "comments": 0,
+      "like_to_view_ratio": 0.004,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Create 3 Multiple JSON Objects from a single JSON API Return that has &quot;key1&quot;: &quot;value1;value2;value3&quot; style encoding",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 1134,
+      "likes": 1,
+      "comments": 2,
+      "like_to_view_ratio": 0.001,
+      "comment_to_view_ratio": 0.002
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Fetch function for ExactOnline with multiple request fails on zapier and n8n",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 151,
+      "likes": 1,
+      "comments": 0,
+      "like_to_view_ratio": 0.007,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Integrating ChatGPT and Google Assistant on Google Home devices using n8n",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 3033,
+      "likes": 0,
+      "comments": 1,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "How to detect JavaScript from html in NodeJs and stop JS rendering",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 184,
+      "likes": 0,
+      "comments": 1,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.005
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Call instance method inside function called from .call()",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 131,
+      "likes": 0,
+      "comments": 1,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.008
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "How to stream Twilio media audio into n8n webhook for real-time transcription?",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 89,
+      "likes": 1,
+      "comments": 0,
+      "like_to_view_ratio": 0.011,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "n8n flow to shortlist materials and send them as a message on MS Teams",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 46,
+      "likes": 0,
+      "comments": 0,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Connecting n8n with local MCP server failed - Error in sub-node &#39;MCP Client&#39; Could not connect to your MCP server",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 1584,
+      "likes": 1,
+      "comments": 1,
+      "like_to_view_ratio": 0.001,
+      "comment_to_view_ratio": 0.001
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Persistent API Authentication Failure (401 Invalid Credentials) on New Wazuh v4.12.0-rc1 Server",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 44,
+      "likes": 0,
+      "comments": 0,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "In Workflow N8N Mysql node waiting for end of stream, what is happening?",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 50,
+      "likes": 0,
+      "comments": 1,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.02
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Is there a way to programmatically set the owner account for a selfhosted n8n instance?",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 583,
+      "likes": 0,
+      "comments": 1,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.002
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Google OAuth Error 400: invalid_request when using n8n on Fly.io",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 74,
+      "likes": 0,
+      "comments": 0,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.0
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "n8n: Reddit Node Throws",
+    "platform": "StackOverflow",
+    "popularity_metrics": {
+      "views": 62,
       "likes": 0,
       "comments": 0,
       "like_to_view_ratio": 0.0,

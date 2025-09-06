@@ -490,5 +490,485 @@
       "comment_to_view_ratio": 0.2
     },
     "country": "US"
+  },
+  {
+    "workflow": "Persistent LinkedIn \"unauthorized_scope_error\" on Render Instance",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 38,
+      "likes": 1,
+      "replies": 2,
+      "like_to_view_ratio": 0.026,
+      "comment_to_view_ratio": 0.053
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "URGENT please help",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 33,
+      "likes": 1,
+      "replies": 2,
+      "like_to_view_ratio": 0.03,
+      "comment_to_view_ratio": 0.061
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Non active Workflow Triggering all the Time",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 27,
+      "likes": 1,
+      "replies": 2,
+      "like_to_view_ratio": 0.037,
+      "comment_to_view_ratio": 0.074
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Postgres PGVector Store",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 63,
+      "likes": 0,
+      "replies": 4,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.063
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Cannot select Shopware Credential in Custom HTTP Requests",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 25,
+      "likes": 0,
+      "replies": 5,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.2
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Automating SEO content gap research with OpenAI Agent in n8n",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 39,
+      "likes": 6,
+      "replies": 7,
+      "like_to_view_ratio": 0.154,
+      "comment_to_view_ratio": 0.179
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Reddit node: “Get many subreddits” returns Forbidden (other flow can post successfully)",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 42,
+      "likes": 1,
+      "replies": 3,
+      "like_to_view_ratio": 0.024,
+      "comment_to_view_ratio": 0.071
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "We need your feedback to make an upcoming feature better!",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 433,
+      "likes": 11,
+      "replies": 9,
+      "like_to_view_ratio": 0.025,
+      "comment_to_view_ratio": 0.021
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Deploy N8N on Azure Container Apps",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 5982,
+      "likes": 5,
+      "replies": 19,
+      "like_to_view_ratio": 0.001,
+      "comment_to_view_ratio": 0.003
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Gemini Error",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 137,
+      "likes": 0,
+      "replies": 10,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.073
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "I'm getting a \"Not Found\" error when connecting a self-hosted n8n instance on Render.com to Google Cloud",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 46,
+      "likes": 0,
+      "replies": 3,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.065
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Auto-update n8n instance(self hosted) with Coolify (and similar service)",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 20,
+      "likes": 0,
+      "replies": 1,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.05
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "How do i make whatsapp msg be the trigger and not google form? im stuck",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 31,
+      "likes": 1,
+      "replies": 4,
+      "like_to_view_ratio": 0.032,
+      "comment_to_view_ratio": 0.129
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Issue with respond to webhook large binary file",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 19,
+      "likes": 1,
+      "replies": 1,
+      "like_to_view_ratio": 0.053,
+      "comment_to_view_ratio": 0.053
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "I need your help in activation key",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 27,
+      "likes": 4,
+      "replies": 12,
+      "like_to_view_ratio": 0.148,
+      "comment_to_view_ratio": 0.444
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Webhook Question - Is it Supposed to Timeout?",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 24,
+      "likes": 0,
+      "replies": 3,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.125
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Getting \"connection lost\" error in a deployed n8n instance",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 17,
+      "likes": 0,
+      "replies": 3,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.176
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Error connecting to n8n - Docker compose log below",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 28,
+      "likes": 1,
+      "replies": 3,
+      "like_to_view_ratio": 0.036,
+      "comment_to_view_ratio": 0.107
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Webhook issue on self-hosted instance",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 21,
+      "likes": 0,
+      "replies": 2,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.095
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Mysql的sql，查询问题",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 12,
+      "likes": 0,
+      "replies": 5,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.417
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Issues connecting to FTP",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 27,
+      "likes": 1,
+      "replies": 10,
+      "like_to_view_ratio": 0.037,
+      "comment_to_view_ratio": 0.37
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Error: Client authentication failed (e.g., unknown client, no client authentication included, or unsupported authentication method). More details Failed to connect",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 13,
+      "likes": 0,
+      "replies": 2,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.154
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Enforcing External Secret Usage in Enterprise n8n",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 20,
+      "likes": 0,
+      "replies": 2,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.1
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Support new thinking mode in Ollama node — Allowing to activate and filter thinking",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 695,
+      "likes": 0,
+      "replies": 2,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.003
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Workflows executions monthly limit",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 136,
+      "likes": 0,
+      "replies": 8,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.059
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Add Bearer to Ollama to support Ollama Turbo mode?",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 512,
+      "likes": 7,
+      "replies": 6,
+      "like_to_view_ratio": 0.014,
+      "comment_to_view_ratio": 0.012
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Pinecone clear namespace not working?",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 21,
+      "likes": 0,
+      "replies": 6,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.286
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Help: Crossmint Integration",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 28,
+      "likes": 0,
+      "replies": 3,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.107
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "When are you planning to introduce Business Plan in cloud version",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 17,
+      "likes": 0,
+      "replies": 1,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.059
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "I’ve built Cursor/Windsurf for n8n ⚡",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 45,
+      "likes": 0,
+      "replies": 1,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.022
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "[Community Node] CNPJ HUB — consulta CNPJ com fallback + saída normalizada",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 57,
+      "likes": 2,
+      "replies": 2,
+      "like_to_view_ratio": 0.035,
+      "comment_to_view_ratio": 0.035
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "IF node condition not matching webhook data from GoHighLevel",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 9,
+      "likes": 0,
+      "replies": 2,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.222
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Release] n8nDash Pro v1.2.0 – Enterprise-Grade WordPress Dashboard Solution for n8n Workflows",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 16,
+      "likes": 0,
+      "replies": 3,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.188
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Code node \"Unknown Error\" for no obvious reason",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 14,
+      "likes": 1,
+      "replies": 17,
+      "like_to_view_ratio": 0.071,
+      "comment_to_view_ratio": 1.214
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Problem in node ‘Transcribe a recording‘ The service is receiving too many requests from you",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 23,
+      "likes": 0,
+      "replies": 2,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.087
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "I cant connect n8n to google sheets",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 19,
+      "likes": 1,
+      "replies": 5,
+      "like_to_view_ratio": 0.053,
+      "comment_to_view_ratio": 0.263
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "Jobs / Hiring",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 174,
+      "likes": 3,
+      "replies": 6,
+      "like_to_view_ratio": 0.017,
+      "comment_to_view_ratio": 0.034
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "How to automatically add and delete future and past dates and times in an airtable base",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 16,
+      "likes": 0,
+      "replies": 3,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.188
+    },
+    "country": "US"
+  },
+  {
+    "workflow": "Asyncrine dowload",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 21,
+      "likes": 0,
+      "replies": 2,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.095
+    },
+    "country": "IN"
+  },
+  {
+    "workflow": "How to search for multiple files with the S3 node?",
+    "platform": "Forum",
+    "popularity_metrics": {
+      "views": 21,
+      "likes": 0,
+      "replies": 2,
+      "like_to_view_ratio": 0.0,
+      "comment_to_view_ratio": 0.095
+    },
+    "country": "IN"
   }
 ]
