@@ -172,15 +172,40 @@ Sample response (truncated):
 
 ---
 
-## 🏆 EVALUATION MAPPING
+## ⏰ Auto Scheduler
 
-| Criterion | How this project satisfies it |
-|----------:|-------------------------------|
-| Data richness & trustworthiness | Each workflow is backed by evidence (URL) + raw metrics |
-| Production readiness | FastAPI + JSON outputs; can be deployed with Uvicorn/Gunicorn |
-| Automation | `fetch_data.py` orchestrates fetch + merge; schedule with cron or Task Scheduler |
-| Creativity | Multi-source collection and country segmentation |
-| Completeness | Aim: **≥ 50 workflows** across platforms; merged into `all_data.json` |
+The project includes an **automatic scheduler (APScheduler)** that refreshes workflow data without manual intervention.
+
+### 🔎 How It Works
+- Runs as a **background task inside FastAPI**  
+- Executes the fetch job at fixed times  
+- Command executed:  
+  ```bash
+  python -m app.fetch_data
+  
+⚙️ Default Schedule
+Schedule Type	Expression	Description
+Daily fetch	hour=2, minute=0	Runs every day at 2:00 AM
+🔧 Customization
+
+Edit app/scheduler.py to change timings:
+  ```bash
+scheduler.add_job(fetch_job, "cron", hour=2, minute=0)
+```
+
+Examples:
+
+Weekly: scheduler.add_job(fetch_job, "cron", day_of_week="sun", hour=2, minute=0)
+
+Every 6 hours: scheduler.add_job(fetch_job, "interval", hours=6)
+
+🚀 Running with Scheduler
+
+Start the API normally — the scheduler is enabled automatically:
+
+  ```bash
+uvicorn app.main:app --reload
+```
 
 ---
 
